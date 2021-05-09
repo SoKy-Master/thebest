@@ -63,7 +63,6 @@ bot("sendMessage",[
 'disable_web_page_preview'=>true,
 ]);
 }
-} 
 ?>
 <html>
   <head>
